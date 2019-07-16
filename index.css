@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  text-align:center;
+}
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.error-message {
+  color: rgb(192, 23, 23);
+}
+
+.hidden {
+  display: none;
+}
